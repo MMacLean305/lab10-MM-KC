@@ -47,10 +47,10 @@ def sub(a, b):
 def mul(a, b):
     return a*b
 def div(a, b): # raise ZeroDivisionError if a == 0
-    if a == 0:
+    if b == 0:
         raise ZeroDivisionError
     else:
-        return a / b
+        return b / a
 def log(a, b): # use math library + raise ValueError
     if a <= 0 and a != 1:
         raise ValueError
