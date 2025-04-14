@@ -1,10 +1,6 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-
+# https://github.com/MMacLean305/lab10-MM-KC
+# Partner 1: Matthew Maclean
+# Partner 2: Kevin Chang
 # First example
 import math
 def add(a, b):
