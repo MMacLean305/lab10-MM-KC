@@ -8,7 +8,7 @@ from calculator import *
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self):  # 3 assertions
-        self.assertEqual(add(3, 1), 5)
+        self.assertEqual(add(3, 1), 4)
         self.assertEqual(add(9, 5), 14)
         self.assertEqual(add(4, 3), 7)
 
@@ -38,7 +38,7 @@ class TestCalculator(unittest.TestCase):
     def test_logarithm(self):  # 3 assertions
         self.assertEqual(logarithm(10, 1000), 3.0)
         self.assertEqual(logarithm(2, 8), 3.0)
-        self.assertEqual(logarithm(1, 3), 1.0)
+        self.assertEqual(logarithm(10, 100), 2.0)
 
     def test_log_invalid_base(self):  # 1 assertion
         self.assertEqual(logarithm(5, 1), 5)
